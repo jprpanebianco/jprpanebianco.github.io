@@ -81,11 +81,6 @@ input[type=submit],[type=reset] {
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
-.card:hover {
-    box-shadow: 0 12px 20px 0 rgba(0,0,0,0.2);
-	opacity: 0.8;
-}
-
 .bottom {
 	background-color: #fce181;
 	border-radius: 0 0 5px 5px;
