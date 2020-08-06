@@ -1,0 +1,177 @@
+table.header {
+	margin: auto;
+	width:80%;
+	content: "";
+    clear: both;
+    display: table;
+}
+
+body {
+	background-image: url("../img/background-light.png"), linear-gradient(to bottom right, rgba(62,168,166,0), rgba(62,168,166,1)); 
+	font-family: Humanist, Charcoal, sans-serif;
+	color: #026670;
+}
+	
+input[type=text],[type=password], textarea {
+	width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit],[type=reset] {
+    width: 100%;
+    background-color: #b71212;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	box-shadow: 2px 2px 8px black;
+}
+
+.top-text {
+	padding: 35px;
+	color: white;
+}
+
+.body{
+	width: 80%;
+//	padding: 0.01em 16px;
+    border-radius: 5px;
+    background-color: #edeae5;
+	margin: auto;
+}
+
+.img-container {
+    float: left;
+    width: 28%;
+    padding: 30px;
+}
+
+.container {
+	content:"";
+	display:table;
+	clear:both;
+	padding: 10px;
+}
+
+.text-container {
+	content:"";
+	display:table;
+	clear:both;
+	padding: 20px;
+//	font-size: 1.2vw;
+	height: 150px;
+}
+
+.card {
+	width: 100%;
+    border-radius: 5px;
+    background-color: #fce181;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.card:hover {
+    box-shadow: 0 12px 20px 0 rgba(0,0,0,0.2);
+	opacity: 0.8;
+}
+
+.bottom {
+	background-color: #fce181;
+	border-radius: 0 0 5px 5px;
+	text-align: center;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #fce181;
+    overflow: hidden;
+	border-radius: 5px 5px 0 0;
+	text-shadow: 2px 2px 2px black;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+	border-radius: 5px 5px 0 0;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #f44242;
+    color: white;
+}
+
+img.cardimg {
+	border-radius:5px 5px 0 0;
+	width: 100%;
+}
+
+img.logo {
+	margin: 0px;
+	width: 100%;
+//	float: center;
+}
+
+img.about {
+	width: 100%;
+}
+
+h2 {
+	font-size: 2vw;
+	padding: 0px;
+	margin:0px;
+}
+
+@media only screen and (max-width: 1500px) {
+	.img-container {
+    width: 45%;
+    padding: 20px;
+	}
+	h2 {
+	font-size: 3vw;	
+	}
+}
+
+@media only screen and (max-width: 1100px) {
+	.img-container {
+    width: 45%;
+    padding: 15px;
+	}
+	.body {
+	width:90%
+	}
+	h2 {
+	font-size: 3.5vw;	
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	.img-container {
+    width: 90%;
+    padding: 20px;
+	}
+	.body {
+	width:90%
+	}
+	h2 {
+	font-size: 5vw;	
+	}
+}
+
