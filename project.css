@@ -1,0 +1,80 @@
+.iframe-container {
+  overflow: hidden;
+  padding-top: 56.25%;
+  position: relative;
+  width: 100%;
+  margin: auto;
+}
+
+.iframe-container iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
+}
+
+.navbar {
+	background: rgb(40,35,28);
+	border-top: 5px solid #BC4749;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	color: #28231C;
+	background: rgb(232,221,181); /* Old browsers */
+}
+
+h3 {
+	text-align: center;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	color: #28231C;
+}
+
+hr {
+	color: #BC4749;
+	background-color:#BC4749;
+}
+
+h4 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+#projects{
+	background: rgb(196,90,92); 
+}
+
+#resume {
+	background: rgb(203,206,202);
+}
+
+/*///////////////// CARDS /////////////////////////////////
+/////////////////////////////////////////////////////////*/
+.card {
+	background: rgb(255,255,255);
+    color: #28231C;
+	border: none;
+}
+
+.card-header {
+	font-family: 'Montserrat', sans-serif;
+	background: rgb(188,71,73);
+	color: #fff;
+}
+
+.index-container {
+	background: rgb(232,221,181); 
+	width:100%;
+	overflow: hidden;
+}
+
+.text-container {
+	content:"";
+	display:table;
+	clear:both;
+	height: 60px;
+}
